@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-monorepo/component": ["lib/share/component/src/index.ts"],
+      "@nx-monorepo/component/server": ["lib/share/component/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
